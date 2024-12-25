@@ -1,60 +1,99 @@
 # MathsGPT : Maths Problem Solver
+[![LangChain](https://img.shields.io/badge/LangChain-Framework-blue)](https://langchain.io/) [![Streamlit](https://img.shields.io/badge/Streamlit-User%20Interface-green)](https://streamlit.io/) [![ChatGroq](https://img.shields.io/badge/ChatGroq-Language%20Model-orange)](https://www.groq.com/) [![Pillow](https://img.shields.io/badge/Pillow-Image%20Processing-yellow)](https://python-pillow.org/)
 
-MathsGPT is a Streamlit-based web application that helps you solve mathematical problems. It uses a chatbot interface to interact with users and provide solutions to math-related questions.
+
+## Overview
+MathsGPT is an intuitive and interactive Streamlit application designed to assist users with solving mathematical problems and retrieving data efficiently. It leverages advanced AI capabilities for solving math-related queries, providing logical reasoning, and conducting searches for information via Wikipedia. The application ensures ease of use with its clean interface and robust functionalities.
+
+![](Screenshot.jpg)
+---
 
 ## Features
 
-- Interactive chatbot interface
-- Solves various mathematical problems
-- Clear chat history functionality
+- **Mathematical Problem Solving**: 
+  - Breaks down problems into steps.
+  - Provides logical reasoning and clear explanations.
+  - Offers a detailed final answer for queries.
 
-## Prerequisites
+- **Wikipedia Integration**: 
+  - Fetches relevant information from Wikipedia for a wide range of topics.
 
-- Python 3.7 or higher
-- Conda (Anaconda or Miniconda)
+- **Calculator Tool**: 
+  - Handles mathematical expressions with precision.
+
+- **Reasoning Assistance**:
+  - Designed for logic-based questions and reasoning tasks.
+
+- **Interactive Chat Interface**:
+  - Stores message history for context.
+  - Offers a "Clear Chat History" button for resetting sessions.
+
+---
+
+## Tech Stack
+
+- **Streamlit**: For building the interactive UI.
+- **LangChain**: Core framework to integrate tools and manage reasoning chains.
+- **LangChain Tools**:
+  - WikipediaAPIWrapper: To fetch Wikipedia data.
+  - LLMMathChain: For solving mathematical queries.
+- **Pillow (PIL)**: To manage images.
+- **ChatGroq**: LLM backend for handling user queries.
+
+---
 
 ## Installation
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mathsGPT.git
+   cd mathsGPT
+   ```
 
-    ```sh
-    git clone https://github.com/yourusername/MathsGPT.git
-    cd MathsGPT
-    ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Create and activate a conda environment:
+3. Add your Groq API key:
+   - Enter your API key in the sidebar when prompted.
 
-    ```sh
-    conda create --name maths-gpt python=3.8
-    conda activate maths-gpt
-    ```
+4. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
 
-3. Install the required packages:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
+---
 
 ## Usage
 
-1. Run the Streamlit app:
+1. Launch the application and enter your Groq API key.
+2. Input your math-related question or search topic in the text area.
+3. Click **Answer** to get a detailed response.
+4. Use the sidebar to clear the chat history if needed.
 
-    ```sh
-    streamlit run app.py
-    ```
+---
 
-2. Open your web browser and go to `http://localhost:8501` to access the application.
+## Future Enhancements
 
-## File Structure
+- Add support for more advanced mathematical topics.
+- Integrate additional data sources for broader search capabilities.
+- Enhance UI for better user experience.
 
-- [app.py](http://_vscodecontentref_/0): Main application file
-- [requirements.txt](http://_vscodecontentref_/1): List of dependencies
-- [technical-support.png](http://_vscodecontentref_/2): Image used in the application
+---
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue to suggest improvements or report bugs.
+
+---
 
 ## License
-This project is licensed under the MIT License.
 
+This project is licensed under the [MIT License](LICENSE).
 
+---
+
+## Contact
+
+For any questions or feedback, please contact [syunus838@gmail.com].
