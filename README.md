@@ -6,7 +6,7 @@
 MathsGPT is an intuitive and interactive Streamlit application designed to assist users with solving mathematical problems and retrieving data efficiently. It leverages advanced AI capabilities for solving math-related queries, providing logical reasoning, and conducting searches for information via Wikipedia. The application ensures ease of use with its clean interface and robust functionalities.
 
 ## Launch Application
-In order to view application, click ([Launch App](https://yunus5603-mathsgpt-app-acxexx.streamlit.app/))
+In order to view application, click 👉[Launch Application](https://yunus5603-mathsgpt-app-acxexx.streamlit.app/)
 
 ![](Screenshot.jpg)
 ---
