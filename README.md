@@ -7,6 +7,7 @@ MathsGPT is an intuitive and interactive Streamlit application designed to assis
 
 ## Launch Application
 In order to view application, click ([Launch App](https://yunus5603-mathsgpt-app-acxexx.streamlit.app/))
+
 ![](Screenshot.jpg)
 ---
 
