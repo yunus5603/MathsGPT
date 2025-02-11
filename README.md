@@ -95,10 +95,10 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 This project can be used for personal learning/use cases.
 
-<p align="center">Made with ❤️ by Yunus Shaikh</p>
-
 ---
 
 ## Contact
 
 For any questions or feedback, please contact [syunus838@gmail.com].
+
+<p align="center">Made with ❤️ by Yunus Shaikh</p>
