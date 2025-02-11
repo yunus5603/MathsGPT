@@ -101,4 +101,8 @@ This project can be used for personal learning/use cases.
 
 For any questions or feedback, please contact [syunus838@gmail.com].
 
+Project Link: [https://github.com/yunus5603/MathsGPT](https://github.com/yunus5603/MathsGPT)
+
+---
+
 <p align="center">Made with ❤️ by Yunus Shaikh</p>
