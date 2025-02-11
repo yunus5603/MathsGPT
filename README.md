@@ -93,7 +93,9 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project can be used for personal learning/use cases.
+
+<p align="center">Made with ❤️ by Yunus Shaikh</p>
 
 ---
 
